@@ -38,7 +38,8 @@
     height: 44px;
     margin: 0 auto;
     margin-top: -77px;
-    width: 582px;
+    width: 587px;
+    border-radius: 30px;
   }
   
   .search-area:hover {
@@ -84,12 +85,13 @@
     line-height: 34px;
     height: 34px !important;
     display: block;
+    border-radius: 3px;
   }
   
   .input {
     margin: 0;
     padding: 0;
-    color: rgba(0, 0, 0, 0.87);
+    /* color: rgba(0, 0, 0, 0.87); */
     word-wrap: break-word;
     outline: none;
     display: flex;
@@ -107,7 +109,11 @@
     text-align: start;
     appearance: textfield;
     cursor: text;
-    width: 100%;
+    width: 480px;
+    border: none;
+    border-radius: 3px;
+
+
   }
   
   .googlesearch {
@@ -118,6 +124,13 @@
     text-align: center;
     cursor: pointer;
     user-select: none;
+    border-radius: 6px;
+    border: 1px;
+    border-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #5f6368;
+    font-size: 14px;
+
   }
   
   .feelinglucky {
@@ -127,6 +140,12 @@
     text-align: center;
     cursor: pointer;
     user-select: none;
+    border-radius: 6px;
+    border: 1px;
+    border-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #5f6368;
+    font-size: 14px;
   }
   
   .footer {
@@ -144,6 +163,7 @@
   
   .footerli {
     float: left;
+    list-style-type: none;
   }
   
   .footerli a {
@@ -166,6 +186,28 @@
     display: block;
     margin: auto;
     text-align: center;
+    height: 36px;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+  }
+
+  #voice-mic {
+    background-image: url(assets/voicelogo.png) no-repeat center;
+    background-size: 21px 21px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+    outline: none;
+    padding: 0;
+    /* pointer-events: auto;
+    position: absolute;
+    right: 16px;
+    width: 26px; */
+    
+
   }
 
 
